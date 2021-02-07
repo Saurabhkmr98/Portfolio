@@ -1,0 +1,80 @@
+body {
+    background-color:white;
+    color:#666666;
+    font:normal 2vw 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.container img{
+    width: 25vw;
+    height: 27vw;
+    border-radius: 50%;  
+    box-shadow: -10px 10px 20px #888888;
+    margin-left: 3vw;  
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-between;
+    background-color:cornsilk;
+    margin: 0;
+    padding: 50px;
+}
+
+.main-body #img{
+    flex: 1;
+}
+
+.main-body p{
+    flex: 4;
+    margin-left: 8vw;
+}
+.main-header{
+    margin-left: 5%;
+}
+.main-header h1{
+    margin-bottom: 0px; 
+    
+}
+
+.main-header h3{
+    margin-top: 0px; 
+}
+
+
+.main-header #navbar ul{
+    float: right;
+    padding: 0;
+    list-style: none;
+    margin-right: 3vw;
+
+}
+
+.main-header #navbar li{
+    display: inline;
+}
+
+.main-header #navbar ul li a:hover{
+    transition-delay: all 0.4s ease;
+    -webkit-transition-delay: all 0.4s ease;
+    font-size: 2.5vw;
+}
+
+.main-header #navbar a{
+    color:#666666;
+    text-decoration: none;
+    font-size: 1.8vw;
+    padding-left: 2vw;
+
+}
+
+.main-header #navbar a:hover{
+    color:black;
+}
