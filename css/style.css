@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color:white;
     color:#666666;
@@ -12,7 +16,7 @@ body {
 
 }
 
-.container img{
+.container .main-body img{
     width: 25vw;
     height: 27vw;
     border-radius: 50%;  
@@ -77,4 +81,43 @@ body {
 
 .main-header #navbar a:hover{
     color:black;
+}
+
+#project {
+    text-align: center;
+    text-shadow: 2px 5px 8px #888888;
+    padding: 4vw 0vw;
+    margin-left: 2vw;
+}
+
+.projects-wrapper{
+    margin-top: -4vw;
+    display: grid;
+    justify-content:center;
+    padding: 0 4vw;
+    text-align: center;
+}
+
+.column img{
+    margin-left: 3vw;
+}
+
+.column {
+    margin: auto;
+}
+
+.titles {
+    margin-left: 4vw;
+}
+
+.projects-wrapper img{
+    border-radius: 10%;
+}
+
+
+.projects-wrapper img{
+    width: 27vw;
+    height: 25vw;
+    margin-top: 2vw;
+    vertical-align: middle;
 }
