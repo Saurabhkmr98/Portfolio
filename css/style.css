@@ -121,3 +121,54 @@ body {
     margin-top: 2vw;
     vertical-align: middle;
 }
+
+.resume-main {
+    background-image: url("../images/resume-bg.jpg");
+    padding: 4vw 4vw;
+    margin: 10vw 0vw;
+}
+
+.resume-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 2vw;
+    column-gap: 2vw;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    padding: 4vw 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    margin: 5vw 10vw;
+    margin-bottom: 5vw;
+}
+
+.resume-wrapper img{
+    width: 6vw;
+    height: 6vw;
+
+}
+
+#tech-skills h1{
+    font: normal 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.resume-button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.resume-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color:white;
+    font: normal 2vw 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;;
+    border-style: solid;
+    border-width: 2px;
+    padding: 2vw 4vw;
+    margin: 4vw 0vw;
+}
