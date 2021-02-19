@@ -126,6 +126,7 @@ body {
     background-image: url("../images/resume-bg.jpg");
     padding: 4vw 4vw;
     margin: 10vw 0vw;
+    margin-bottom: 0;
 }
 
 .resume-wrapper {
@@ -158,6 +159,7 @@ body {
 .resume-button-wrapper {
     display: flex;
     justify-content: center;
+    column-gap: 2vw;
 }
 .resume-button {
     background-color: Transparent;
@@ -172,3 +174,36 @@ body {
     padding: 2vw 4vw;
     margin: 4vw 0vw;
 }
+
+.footer {
+    margin-top: 7vw;
+    display: flex;
+    justify-content:space-between;
+    background-color: #e6e6e6;
+    padding: 1vw;
+    
+}
+
+.icon-details{
+    float: left;
+    margin-top: 1vw;
+    width: 4vw;
+    height: 4vw;
+}
+.credits{
+    width: 100%;
+    margin: 0;
+}
+
+#credit-icons{
+    font: small-caption;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vw;
+}
+#credit-icons a{
+    margin-left: 0.5vw;
+}
+
