@@ -86,28 +86,53 @@ body {
 #project {
     text-align: center;
     text-shadow: 2px 5px 8px #888888;
+    font-family: 'Noto Serif', serif;
     padding: 4vw 0vw;
     margin-left: 2vw;
 }
 
 .projects-wrapper{
-    margin-top: -4vw;
-    display: grid;
-    justify-content:center;
-    padding: 0 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2vw 2vw;
     text-align: center;
 }
 
 .column img{
-    margin-left: 3vw;
+   
 }
 
+.button {
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    color:#666666;
+    padding: 1vw 8vw;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5vw;
+    font-weight: bold;
+    margin: 2px 10px 30px;
+    cursor: pointer;
+    box-shadow: 5px 10px 8px #888888;
+  }
+  
+  .button1 {background-color: #e0e0eb} /* Green */
+  .button2 {background-color: #e0e0eb} /* Blue */
+
 .column {
-    margin: auto;
+    margin-top:2vw;
+    margin-bottom: 2vw;
+    margin-left:2vw;
+    margin-right:2vw;
 }
 
 .titles {
     margin-left: 4vw;
+}
+.pw2{
+    margin-top: 50px;
 }
 
 .projects-wrapper img{
@@ -116,9 +141,8 @@ body {
 
 
 .projects-wrapper img{
-    width: 27vw;
-    height: 25vw;
-    margin-top: 2vw;
+    width: 20vw;
+    height: 20vw;
     vertical-align: middle;
 }
 
@@ -207,3 +231,9 @@ body {
     margin-left: 0.5vw;
 }
 
+.box{
+    padding: 2vw 2vw 2vw 2vw;
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 5%;
+    background-color: #f2f2f2;
+}
